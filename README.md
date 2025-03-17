@@ -16,3 +16,4 @@ A simple Selenium-Python test automation project for testing a sample e-commerce
 1. Clone the repository:
    ```bash
    git clone https://github.com/suting777/selenium_python.git
+2.
