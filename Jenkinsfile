@@ -13,10 +13,7 @@ pipeline {
         }
         stage('Run Tests') {
     steps {
-        bat '''
-        cd "C:\\Users\\suting777\\selenium projects\\selenium_python"
-        python selenium_python.py
-        '''
+        bat 'python selenium_python_ecommerce.py'
     }
 }
 
