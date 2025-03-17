@@ -12,9 +12,13 @@ pipeline {
             }
         }
         stage('Run Tests') {
-            steps {
-                bat 'python selenium_python.py'
-            }
-        }
+    steps {
+        bat '''
+        cd "C:\\Users\\suting777\\selenium projects\\selenium_python"
+        python selenium_python.py
+        '''
+    }
+}
+
     }
 }
